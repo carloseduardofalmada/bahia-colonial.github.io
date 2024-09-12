@@ -1,0 +1,94 @@
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(109, 103, 95);
+    color: #ffffff;
+
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+header {
+    background-color: rgb(136, 121, 101);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.418);
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(136, 121, 101);
+    color: #000000;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dfdfdf;
+}
+
+nav ul li a {
+    color: #dfdfdf;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px 5px;
+    display: block;
+}
+
+
+nav ul li a:hover{
+    background-color: rgb(136, 121, 101);
+    border-radius: 5px;
+    animation: bounce 0.5s ease-in-out;
+}
+
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    color: #dfdfdf;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
